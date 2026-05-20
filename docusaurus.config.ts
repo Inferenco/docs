@@ -90,6 +90,7 @@ export default {
     }],
   ],
   themes: ['@docusaurus/theme-mermaid'],
+  plugins: [],
   markdown: {
     mermaid: true,
   },

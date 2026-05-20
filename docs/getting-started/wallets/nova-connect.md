@@ -1,4 +1,4 @@
-# Nova Connect
+# <img src="/img/nova-ecosystem/nova-logo.png" alt="Nova Connect Logo" width="64" style={{display: 'inline', verticalAlign: 'middle', marginRight: '12px', transform: 'translateY(-2px)'}} />Nova Connect
 
 **Nova Connect** is the official wallet adapter that enables dApps to connect with Nova Wallet (mobile) and Nova Desk (desktop). It provides a unified interface for wallet connectivity across both platforms.
 
