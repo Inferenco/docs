@@ -9,9 +9,10 @@ interface LightboxImage {
 interface LightboxGalleryProps {
   images: LightboxImage[];
   thumbnailWidth?: string;
+  thumbnailHeight?: string;
 }
 
-export default function LightboxGallery({ images, thumbnailWidth = '800px' }: LightboxGalleryProps) {
+export default function LightboxGallery({ images, thumbnailWidth = '800px', thumbnailHeight }: LightboxGalleryProps) {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
@@ -207,11 +208,12 @@ export default function LightboxGallery({ images, thumbnailWidth = '800px' }: Li
                 style={{
                   borderRadius: '8px',
                   border: '1px solid #e0e0e0',
-                  height: 'auto',
+                  height: thumbnailHeight || 'auto',
                   cursor: isDragging ? 'grabbing' : 'pointer',
                   width: thumbnailWidth,
                   minWidth: thumbnailWidth,
                   display: 'block',
+                  objectFit: thumbnailHeight ? 'contain' : undefined,
                 }}
               />
             </a>
