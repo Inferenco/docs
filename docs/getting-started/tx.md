@@ -165,7 +165,7 @@ async function main() {
     },
     options: {
       maxGasAmount: 5000,
-      faAddress: parseTypeTag("0x1::CedraCoin::cedra"),
+      faAddress: parseTypeTag("0x1::cedra_coin::CedraCoin"),
     },
   });
 
@@ -191,7 +191,7 @@ const transactionWithCustomGas = await client.transaction.build.simple({
   },
   options: {
     maxGasAmount: 5000,
-    faAddress: parseTypeTag("0x1::CedraCoin::cedra"),
+    faAddress: parseTypeTag("0x1::cedra_coin::CedraCoin"),
   },
 });
 ```

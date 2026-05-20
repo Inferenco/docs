@@ -150,7 +150,7 @@ export async function mintTestTokens(
     },
     options: {
       maxGasAmount: 5000,
-      faAddress: parseTypeTag("0x1::CedraCoin::cedra"),
+      faAddress: parseTypeTag("0x1::cedra_coin::CedraCoin"),
     },
   });
 
@@ -187,7 +187,7 @@ export async function createTradingPair(
     },
     options: {
       maxGasAmount: 5000,
-      faAddress: parseTypeTag("0x1::CedraCoin::cedra"),
+      faAddress: parseTypeTag("0x1::cedra_coin::CedraCoin"),
     },
   });
 
@@ -270,7 +270,7 @@ export async function addLiquidity(
     },
     options: {
       maxGasAmount: 5000,
-      faAddress: parseTypeTag("0x1::CedraCoin::cedra"),
+      faAddress: parseTypeTag("0x1::cedra_coin::CedraCoin"),
     },
   });
 
@@ -326,7 +326,7 @@ export async function executeSwap(
     },
     options: {
       maxGasAmount: 5000,
-      faAddress: parseTypeTag("0x1::CedraCoin::cedra"),
+      faAddress: parseTypeTag("0x1::cedra_coin::CedraCoin"),
     },
   });
 
