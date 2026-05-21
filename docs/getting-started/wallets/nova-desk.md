@@ -2,6 +2,10 @@
 
 **Nova Desk** is the official desktop wallet for the Cedra blockchain. Built for power users and developers, Nova Desk combines enterprise-grade security with a seamless user interface.
 
+## Demo
+
+🎥 [**Watch Nova Desk Demo Video**](https://youtu.be/plNLLY66klU)
+
 ![Nova Desk Screenshot](/img/nova-ecosystem/nova-desk/light-theme.png)
 
 ## Download

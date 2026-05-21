@@ -2,6 +2,10 @@
 
 **Nova Wallet** is the official mobile wallet for the Cedra blockchain. Available on Android, Nova Wallet provides a secure and user-friendly way to manage your digital assets.
 
+## Demo
+
+🎥 [**Watch Nova Wallet Demo Video**](https://www.youtube.com/shorts/BNZETysCRmk)
+
 ![Nova Wallet Screenshot](/img/nova-ecosystem/nova-wallet/light.png)
 
 ## Download
